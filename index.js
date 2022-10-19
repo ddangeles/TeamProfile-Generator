@@ -53,15 +53,14 @@ function createTeam() {
         message: "Which type of team member?", 
         choices: [
             "Engineer",
-            "Intern",
-            "Manager"
+            "Intern"
         ]
     }]).then((userChoice) => {
         console.log(userChoice);
         if(userChoice.teamChoice ==="Engineer"){
-            
+            // function filling in all attributes for engineer^
         } else if(userChoice.teamChoice === "Intern"){
-
+             // function filling in all attributes for intern^
         }
     })
 }
